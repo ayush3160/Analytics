@@ -1,7 +1,7 @@
 let dateWise = [], browserPercentage = [], topSessions = [];
 window.onload = apicalls()
 async function apicalls() {
-    await fetch('http://localhost:3007/track/sessionData')
+    await fetch('http://3.109.28.80:3007/track/sessionData')
       .then((response) => response.json())
       .then((data) => 
       {

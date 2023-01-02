@@ -1,7 +1,7 @@
 let dataSet = [];
 window.onload = apicalls()
 async function apicalls() {
-fetch('http://localhost:3007/track/customers')
+fetch('http://3.109.28.80:3007/track/customers')
       .then((response) => response.json())
       .then((data) => 
       { 
